@@ -8,6 +8,8 @@ engines:
       - javascript
       - python
       - php
+   exclude_paths:
+   - "public/"
   eslint:
     enabled: true
   fixme:
@@ -21,6 +23,5 @@ ratings:
   - "**.php"
   - "**.py"
   - "**.rb"
-exclude_paths: [
-  - "public/"
-]
+exclude_paths:
+- "public/"
